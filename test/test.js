@@ -57,7 +57,8 @@ describe('trains', function () {
     expect(distance).to.equal(9);
   });
 
-  it.skip('should find the number of routes from C -> C with a distance < 30', function() {
-    routes.routesLessThan(routes.nodes['C'], routes.nodes['C']);
+  it('should find the number of routes from C -> C with a distance < 30', function() {
+    var count = routes.routesLessThan(routes.nodes['C'], routes.nodes['C'],30);
+    expect(count).to.equal(7);
   });
 });
