@@ -1,0 +1,33 @@
+{
+  "name": "trains",
+  "version": "0.0.0",
+  "description": "Sendachi Challenge - Trains",
+  "author": {
+    "name": "David J. Clarke",
+    "email": "dave@clarkes.us"
+  },
+  "repository": "user/repo",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "trains"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
