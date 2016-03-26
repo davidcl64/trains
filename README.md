@@ -3,7 +3,7 @@
 
 ### Install
 
-    $ cd path/to/trains && npm install
+    $ git clone git@github.com:davidcl64/trains.git && cd trains && npm install
 
 ### Usage
 
